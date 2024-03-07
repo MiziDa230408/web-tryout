@@ -4,12 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/logo/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Webdesign Tryout with Tailwind CSS</title>
 </head>
 
 <body>
-    <h1>Webdesign Tryout with Tailwind CSS</h1>
-    <p>
+    <header class="fixed flex gap-4 justify-between items-center w-full h-20  p-4 z-20 bg-orange-100 shadow-lgflex max-h-2 ">
+         
+        <img class="w-8 h-8" src="assets/logo/kosarka.jpg" alt="Basketball" />
+        <h1 class="  text-xl md:text-3xl xl:text-7xl">
+            Webdesign Tryout with Tailwind CSS
+        </h1>
+        <nav>
+        <a
+        class="font-serif text-blue-600 hover:underline"
+        href="https://litec.ac.at"
+        >LiTec</a>
+        
+    </nav>
+        </header>
+
+
+<main class=" w-auto flex justify-center">
+    <section class ="container px-2 pt-24 bg-slate-200">
+        <h2 class="text-2xl font-serif mb-2">Demo Text</h2>
+        <img class="animate-pulse w-40 h-40" src="assets/logo/kosarka.jpg" alt="Basketball" />
+        <div class="flex">
+        <p class="font-thin">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
         clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
@@ -46,7 +68,8 @@
         erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus
         sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
         sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-
+        </p>
+        <p class="font-thin">
         Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
         diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
         takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -81,6 +104,9 @@
         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
         ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
     </p>
+</div>
+</section>
+</main>
 </body>
 
 </html>
